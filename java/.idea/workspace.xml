@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e847ad4d-b072-4573-bf56-1ab4226d56e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/challenge3a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/challenge1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge1/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/challenge2a/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge2a/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/challenge2b/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge2b/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/challenge1/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge1/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/challenge2a/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge2a/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/challenge2b/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge2b/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge2b/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge2b/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/challenge3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/challenge3a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +48,26 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenge2b.Solution" />
+      <module name="FoobarChallenge_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenge2b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582625921580</updated>
-      <workItem from="1582625923259" duration="636000" />
+      <workItem from="1582625923259" duration="640000" />
+      <workItem from="1582638581476" duration="518000" />
     </task>
     <servers />
   </component>
