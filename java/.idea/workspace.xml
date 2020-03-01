@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e847ad4d-b072-4573-bf56-1ab4226d56e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge3c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Challenge1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Challenge3cTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/challenge3c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge4a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Challenge4aTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge2a/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge2a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge2b/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge2b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge1/SolutionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge2a/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Challenge2aTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge2b/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Challenge2bTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/challenge3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/challenge3b.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TU/CSE2310-AD" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Challenge3cTest.test3">
+  <component name="RunManager" selected="Gradle.Challenge4aTest">
     <configuration name="Challenge2b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Challenge2b" />
       <module name="FoobarChallenge_main" />
@@ -127,8 +115,48 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Challenge4aTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Challenge4aTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Challenge4aTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Challenge4aTest.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Challenge4aTest" />
+        <item itemvalue="Gradle.Challenge4aTest.test" />
         <item itemvalue="Gradle.Challenge3cTest.test3" />
         <item itemvalue="Gradle.Challenge3cTest" />
         <item itemvalue="Application.Challenge2b" />
@@ -147,7 +175,7 @@
       <updated>1582625921580</updated>
       <workItem from="1582625923259" duration="640000" />
       <workItem from="1582638581476" duration="518000" />
-      <workItem from="1583058467590" duration="970000" />
+      <workItem from="1583058467590" duration="2771000" />
     </task>
     <servers />
   </component>
@@ -167,48 +195,57 @@
       <screen x="0" y="24" width="2560" height="1416" />
     </state>
     <state x="1015" y="222" width="510" height="993" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583058566977" />
-    <state width="2518" height="490" key="GridCell.Tab.0.bottom" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state x="3623" y="490" width="424" height="482" key="FileChooserDialogImpl" timestamp="1583060302100">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.0.bottom/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-    <state width="2518" height="490" key="GridCell.Tab.0.center" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state x="3623" y="490" width="424" height="482" key="FileChooserDialogImpl/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583060302100" />
+    <state width="2518" height="480" key="GridCell.Tab.0.bottom" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.0.center/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-    <state width="2518" height="490" key="GridCell.Tab.0.left" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state width="2518" height="490" key="GridCell.Tab.0.bottom/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440238" />
+    <state width="2518" height="480" key="GridCell.Tab.0.bottom/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.0.center" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.0.left/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-    <state width="2518" height="490" key="GridCell.Tab.0.right" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state width="2518" height="490" key="GridCell.Tab.0.center/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440238" />
+    <state width="2518" height="480" key="GridCell.Tab.0.center/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.0.left" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.0.right/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-    <state width="2518" height="490" key="GridCell.Tab.1.bottom" timestamp="1583059394808">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state width="2518" height="490" key="GridCell.Tab.0.left/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440238" />
+    <state width="2518" height="480" key="GridCell.Tab.0.left/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.0.right" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.1.bottom/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394808" />
-    <state width="2518" height="490" key="GridCell.Tab.1.center" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state width="2518" height="490" key="GridCell.Tab.0.right/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440238" />
+    <state width="2518" height="480" key="GridCell.Tab.0.right/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.1.bottom" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.1.center/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-    <state width="2518" height="490" key="GridCell.Tab.1.left" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state width="2518" height="490" key="GridCell.Tab.1.bottom/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440162" />
+    <state width="2518" height="480" key="GridCell.Tab.1.bottom/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.1.center" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.1.left/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-    <state width="2518" height="490" key="GridCell.Tab.1.right" timestamp="1583059394807">
-      <screen x="0" y="24" width="2560" height="1416" />
+    <state width="2518" height="490" key="GridCell.Tab.1.center/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440162" />
+    <state width="2518" height="480" key="GridCell.Tab.1.center/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.1.left" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="490" key="GridCell.Tab.1.right/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059394807" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Challenge3c.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="2518" height="490" key="GridCell.Tab.1.left/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440162" />
+    <state width="2518" height="480" key="GridCell.Tab.1.left/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="2518" height="480" key="GridCell.Tab.1.right" timestamp="1583061207975">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="490" key="GridCell.Tab.1.right/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@0.24.2560.1416" timestamp="1583059440162" />
+    <state width="2518" height="480" key="GridCell.Tab.1.right/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583061207975" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1583060265694">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583060265694" />
+    <state x="3450" y="346" width="770" height="770" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583060160431">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3450" y="346" width="770" height="770" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.2560.1440/5120.0.2560.1440/0.24.2560.1416@2560.0.2560.1440" timestamp="1583060160431" />
   </component>
 </project>
