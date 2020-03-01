@@ -163,17 +163,17 @@ def solution(m):
 class Tests(unittest.TestCase):
 
     def test_1(self):
-        self.assertEqual(
-            solution([[0, 2, 1, 0, 0], [0, 0, 0, 3, 4], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]),
-            [7, 6, 8, 21])
+        self.assertEqual([7, 6, 8, 21],
+                         solution([[0, 2, 1, 0, 0], [0, 0, 0, 3, 4], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]])
+                         )
 
     def test_2(self):
-        self.assertEqual(solution(
+        self.assertEqual([0, 3, 2, 9, 14], solution(
             [[0, 1, 0, 0, 0, 1], [4, 0, 0, 3, 2, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0],
-             [0, 0, 0, 0, 0, 0]]), [0, 3, 2, 9, 14])
+             [0, 0, 0, 0, 0, 0]]))
 
     def test_3(self):
-        self.assertEqual(solution([[0]]), [])
+        self.assertEqual([1, 1], solution([[]]))
 
 
 if __name__ == '__main__':

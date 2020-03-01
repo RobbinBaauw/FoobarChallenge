@@ -1,10 +1,8 @@
-package challenge2b;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class Challenge2b {
     public static int solution(String n, int b) {
         final Map<String, Integer> solutionIterationMap = new HashMap<>();
 

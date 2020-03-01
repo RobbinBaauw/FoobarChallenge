@@ -1,6 +1,4 @@
-package challenge1;
-
-public class Solution {
+public class Challenge1 {
     public static String solution(String x) {
         char[] chars = x.toCharArray();
         for (int i = 0; i < chars.length; i++) {

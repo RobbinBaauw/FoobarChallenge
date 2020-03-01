@@ -1,6 +1,4 @@
-package challenge2a;
-
-public class Solution {
+public class Challenge2a {
     public static int solution(int total_lambs) {
         int mostGenerousAmount = (int) Math.floor(Math.log(total_lambs + 1) / Math.log(2));
 
