@@ -11,9 +11,9 @@ public class Challenge4b {
     public static int[] solution(int[][] times, int times_limit) {
 
         int[][] shortestPaths = findShortestPaths(times);
-        Set<Set<Integer>> allowedIndices = getBunnyIndices(times.length - 2);
+        Set<Set<Integer>> allowedIndices = powerSetOfLength(times.length - 2);
 
-        int[] bestIndices = new int[0];
+        int[] bestIndicesSoFar = new int[0];
         outer: for (Set<Integer> currentAllowedIndices : allowedIndices) {
             for (List<Integer> ordering : permute(currentAllowedIndices)) {
                 ordering.add(shortestPaths.length - 1);
@@ -22,41 +22,54 @@ public class Challenge4b {
                 int totalCost = 0;
                 for (int newIndex : ordering) {
                     totalCost += shortestPaths[currentIndex][newIndex];
+                    currentIndex = newIndex;
                 }
 
                 if (totalCost <= times_limit) {
                     int[] currentAllowedIndicesArr = currentAllowedIndices.stream().mapToInt(x -> x - 1).sorted().toArray();
 
-                    if (bestIndices.length < currentAllowedIndicesArr.length) {
-                        bestIndices = currentAllowedIndicesArr;
+                    if (bestIndicesSoFar.length < currentAllowedIndicesArr.length) {
+                        bestIndicesSoFar = currentAllowedIndicesArr;
                         continue outer;
-                    } else if (bestIndices.length == currentAllowedIndicesArr.length) {
+                    } else if (bestIndicesSoFar.length == currentAllowedIndicesArr.length) {
                         for (int i = 0; i < currentAllowedIndicesArr.length; i++) {
-                            if (bestIndices[i] < currentAllowedIndicesArr[i]) {
+                            if (bestIndicesSoFar[i] < currentAllowedIndicesArr[i]) {
                                 continue outer;
                             }
                         }
-                        bestIndices = currentAllowedIndicesArr;
+                        bestIndicesSoFar = currentAllowedIndicesArr;
                     }
                 }
             }
         }
 
-        return bestIndices;
+        return bestIndicesSoFar;
     }
 
+    // Bellman-ford
     private static int[][] findShortestPaths(int[][] times) {
         int[][] Opt = Arrays.stream(times)
             .map(int[]::clone)
             .toArray(int[][]::new);
 
-        for (int ignore = 0; ignore < times.length; ignore++) {
+        boolean hasNegativeCycles = false;
+        outer: for (int iteration = 0; iteration < times.length + 2; iteration++) {
             for (int from = 0; from < times.length; from++) {
                 for (int to = 0; to < times.length; to++) {
                     if (from != to) {
                         for (int other = 0; other < times.length; other++) {
                             if (other != from && other != to) {
-                                Opt[from][to] = Math.min(Opt[from][to], Opt[from][other] + Opt[other][to]);
+                                int min = Math.min(Opt[from][to], Opt[from][other] + Opt[other][to]);
+                                if (iteration == times.length && min != Opt[from][to]) {
+                                    hasNegativeCycles = true;
+                                    continue outer;
+                                }
+
+                                if (iteration == times.length + 1 && hasNegativeCycles) {
+                                    Opt[from][to] = 0;
+                                } else if (iteration < times.length) {
+                                    Opt[from][to] = min;
+                                }
                             }
                         }
                     }
@@ -67,6 +80,7 @@ public class Challenge4b {
         return Opt;
     }
 
+    // Thanks StackOverflow :)
     private static Set<List<Integer>> permute(Collection<Integer> input) {
         Set<List<Integer>> output = new HashSet<>();
         if (input.isEmpty()) {
@@ -89,7 +103,7 @@ public class Challenge4b {
         return output;
     }
 
-    private static Set<Set<Integer>> getBunnyIndices(int amountOfBunnies) {
+    private static Set<Set<Integer>> powerSetOfLength(int amountOfBunnies) {
 
         Set<Integer> possibleIndices = IntStream
             .rangeClosed(1, amountOfBunnies)
